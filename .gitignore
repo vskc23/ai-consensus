@@ -1,0 +1,25 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets/
+credentials/
+serviceAccountKey.json
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Generated run output: one JSON file per question (full turn +
+# search audit). Standard practice: commit code + .env.example,
+# ignore everything the program writes at runtime.
+results/
+logs/
+last_result.json
