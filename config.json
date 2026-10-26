@@ -1,0 +1,14 @@
+{
+  "models": {
+    "OpenAI": "openai/gpt-6-astra",
+    "Claude": "anthropic/claude-opus-5.5",
+    "Gemini": "google/gemini-4-argon",
+    "DeepSeek": "deepseek/deepseek-v4-pro"
+  },
+  "judge_model": "anthropic/claude-opus-5.5",
+  "search_mode": "auto",
+  "tavily_max_results": 5,
+  "history_turns": 3,
+  "answer_max_tokens": 1024,
+  "judge_max_tokens": 4096
+}

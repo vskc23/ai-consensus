@@ -1,0 +1,8 @@
+# Read by Google Gemini CLI / Jules
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+serviceAccountKey.json

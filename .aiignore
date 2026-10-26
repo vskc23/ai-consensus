@@ -1,0 +1,8 @@
+# Read by JetBrains AI Assistant
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+serviceAccountKey.json
